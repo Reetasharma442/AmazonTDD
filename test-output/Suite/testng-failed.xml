@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Maruti@5321"/>
+  <parameter name="validpassword" value="Maruti@5321"/>
+  <parameter name="invalidemail" value="abc@gmail.com"/>
+  <parameter name="validemail" value="reetasharma442@gmail.com"/>
+  <parameter name="invalidpassword" value="Test@123"/>
+  <parameter name="email" value="reetasharma442@gmail.com"/>
+  <parameter name="url" value="https://www.amazon.ca/"/>
+  <test thread-count="5" parallel="classes" name="AmazonFinalProjectTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.LoginValidationTest">
+        <methods>
+          <include name="afterclass"/>
+          <include name="clicksignOutTest"/>
+          <include name="afterTest"/>
+          <include name="sendkeyspassword1Test"/>
+          <include name="clickSubmit1"/>
+          <include name="clickcontinueBtnTest"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="Loginbutton"/>
+          <include name="sendkeysemailTest"/>
+          <include name="clickSubmitTest"/>
+          <include name="clickcontinueBtn1"/>
+          <include name="mouseHoverTest"/>
+          <include name="sendkeyspassword"/>
+          <include name="clickaccAndLst1"/>
+          <include name="sendkeysemail1"/>
+        </methods>
+      </class> <!-- TestCases.LoginValidationTest -->
+      <class name="TestCases.SamsungPageTest">
+        <methods>
+          <include name="clicksubmitTest"/>
+          <include name="clickdeliverylocation"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="sendKeysSearchbarTest"/>
+          <include name="clickApplyTest"/>
+          <include name="afterTest"/>
+          <include name="sendKeyszipCode1Test"/>
+          <include name="clickSelectPhoneTest"/>
+          <include name="clickaddToCartTest"/>
+          <include name="clickcheckoutTest"/>
+          <include name="sendKeyszipCode2Test"/>
+          <include name="verifyPhonePrice"/>
+        </methods>
+      </class> <!-- TestCases.SamsungPageTest -->
+      <class name="TestCases.URLValidationTest">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- TestCases.URLValidationTest -->
+      <class name="TestCases.CreateAWishListTest">
+        <methods>
+          <include name="clickSignInBtnTest"/>
+          <include name="afterTest"/>
+          <include name="mousehoveractions2"/>
+          <include name="sendKeysemailTest"/>
+          <include name="mousehoveractions"/>
+          <include name="clicknewReleasesTest"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="clickSignInSubmitTest"/>
+          <include name="clickSignOutTest"/>
+          <include name="sendKeyspasswordTest"/>
+          <include name="clickBuyNowTest"/>
+          <include name="clickSelectproductTest"/>
+          <include name="clickCreateWishLstTest"/>
+        </methods>
+      </class> <!-- TestCases.CreateAWishListTest -->
+    </classes>
+  </test> <!-- AmazonFinalProjectTest(failed) -->
+  <test thread-count="5" parallel="classes" name="AmazonFinalProjectTest1(failed)">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="TestCases.LoginValidationTest">
+        <methods>
+          <include name="afterclass"/>
+          <include name="clicksignOutTest"/>
+          <include name="afterTest"/>
+          <include name="sendkeyspassword1Test"/>
+          <include name="clickSubmit1"/>
+          <include name="clickcontinueBtnTest"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="Loginbutton"/>
+          <include name="sendkeysemailTest"/>
+          <include name="clickSubmitTest"/>
+          <include name="clickcontinueBtn1"/>
+          <include name="mouseHoverTest"/>
+          <include name="sendkeyspassword"/>
+          <include name="clickaccAndLst1"/>
+          <include name="sendkeysemail1"/>
+        </methods>
+      </class> <!-- TestCases.LoginValidationTest -->
+      <class name="TestCases.SamsungPageTest">
+        <methods>
+          <include name="clicksubmitTest"/>
+          <include name="clickdeliverylocation"/>
+          <include name="beforeSuite"/>
+          <include name="sendKeysSearchbarTest"/>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="clickApplyTest"/>
+          <include name="sendKeyszipCode1Test"/>
+          <include name="clickSelectPhoneTest"/>
+          <include name="clickaddToCartTest"/>
+          <include name="clickcheckoutTest"/>
+          <include name="sendKeyszipCode2Test"/>
+          <include name="verifyPhonePrice"/>
+        </methods>
+      </class> <!-- TestCases.SamsungPageTest -->
+      <class name="TestCases.URLValidationTest">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- TestCases.URLValidationTest -->
+      <class name="TestCases.CreateAWishListTest">
+        <methods>
+          <include name="clickSignInBtnTest"/>
+          <include name="afterTest"/>
+          <include name="mousehoveractions2"/>
+          <include name="sendKeysemailTest"/>
+          <include name="mousehoveractions"/>
+          <include name="clicknewReleasesTest"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="clickSignInSubmitTest"/>
+          <include name="clickSignOutTest"/>
+          <include name="sendKeyspasswordTest"/>
+          <include name="clickBuyNowTest"/>
+          <include name="clickSelectproductTest"/>
+          <include name="clickCreateWishLstTest"/>
+        </methods>
+      </class> <!-- TestCases.CreateAWishListTest -->
+    </classes>
+  </test> <!-- AmazonFinalProjectTest1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
